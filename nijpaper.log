@@ -1,0 +1,552 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  10 AUG 2017 13:26
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**nijpaper.tex
+(./nijpaper.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./JMR.sty
+Package: JMR 2010/03/24 J Marine Research
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count88
+\output=\toks15
+\linenoprevgraf=\count89
+\linenumbersep=\dimen105
+\linenumberwidth=\dimen106
+\c@linenumber=\count90
+\c@pagewiselinenumber=\count91
+\c@LN@truepage=\count92
+\c@internallinenumber=\count93
+\c@internallinenumbers=\count94
+\quotelinenumbersep=\dimen107
+\bframerule=\dimen108
+\bframesep=\dimen109
+\bframebox=\box26
+LaTeX Info: Redefining \\ on input line 3056.
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen110
+\Gm@wd@mp=\dimen111
+\Gm@odd@mp=\dimen112
+\Gm@even@mp=\dimen113
+\Gm@layoutwidth=\dimen114
+\Gm@layoutheight=\dimen115
+\Gm@layouthoffset=\dimen116
+\Gm@layoutvoffset=\dimen117
+\Gm@dimlist=\toks16
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count98
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip45
+\@affilsep=\skip46
+\c@Maxaffil=\count99
+\c@authors=\count100
+\c@affil=\count101
+)
+
+LaTeX Warning: Unused global option(s):
+    [figuresatend].
+
+(./nijpaper.aux)
+\openout1 = `nijpaper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 38.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen118
+\scratchbox=\box27
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen119
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks18
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 429.3521pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=429.3521pt
+* \textheight=652.70622pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 39.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 39.
+[1
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 42.
+[1]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+<./figures/mainmap.pdf, id=15, 459.7175pt x 431.6125pt>
+File: ./figures/mainmap.pdf Graphic file (type pdf)
+<use ./figures/mainmap.pdf>
+Package pdftex.def Info: ./figures/mainmap.pdf used on input line 53.
+(pdftex.def)             Requested size: 386.41426pt x 362.80887pt.
+[1] [2 <./figures/mainmap.pdf>] [3]
+Overfull \hbox (1.20679pt too wide) in paragraph at lines 76--77
+[]\OT1/ptm/m/n/12 Our wavelet anal-y-sis uses the jLab tool-box (Lilly, 2017) w
+ith stan-dard Mor-let wavelets
+ []
+
+
+Overfull \hbox (0.9288pt too wide) in paragraph at lines 78--79
+\OT1/ptm/m/n/12 Meinen \OT1/ptm/m/it/12 et al. \OT1/ptm/m/n/12 (1993) and im-pl
+e-mented by Pickart (1995) for trac-ing of To-po-graphic Rossby
+ []
+
+[4] [5] <./figures/plot_section.pdf, id=43, 506.89375pt x 757.83125pt>
+File: ./figures/plot_section.pdf Graphic file (type pdf)
+<use ./figures/plot_section.pdf>
+Package pdftex.def Info: ./figures/plot_section.pdf used on input line 90.
+(pdftex.def)             Requested size: 386.41426pt x 577.72696pt.
+
+LaTeX Warning: Float too large for page by 53.61864pt on input line 92.
+
+<./figures/hoff_vars.pdf, id=44, 548.0475pt x 634.37pt>
+File: ./figures/hoff_vars.pdf Graphic file (type pdf)
+<use ./figures/hoff_vars.pdf>
+Package pdftex.def Info: ./figures/hoff_vars.pdf used on input line 97.
+(pdftex.def)             Requested size: 429.3521pt x 496.98453pt.
+<./figures/TRWwavelet.pdf, id=45, 572.1375pt x 381.425pt>
+File: ./figures/TRWwavelet.pdf Graphic file (type pdf)
+<use ./figures/TRWwavelet.pdf>
+Package pdftex.def Info: ./figures/TRWwavelet.pdf used on input line 108.
+(pdftex.def)             Requested size: 429.3521pt x 286.23682pt.
+[6] [7 <./figures/plot_section.pdf>] [8 <./figures/hoff_vars.pdf>]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+<./figures/map_ellipse.pdf, id=67, 543.02875pt x 401.5pt>
+File: ./figures/map_ellipse.pdf Graphic file (type pdf)
+<use ./figures/map_ellipse.pdf>
+Package pdftex.def Info: ./figures/map_ellipse.pdf used on input line 121.
+(pdftex.def)             Requested size: 429.3521pt x 317.46333pt.
+[9 <./figures/TRWwavelet.pdf>] [10 <./figures/map_ellipse.pdf>] [11] <./figures
+/wave_trace.pdf, id=92, 528.97626pt x 431.6125pt>
+File: ./figures/wave_trace.pdf Graphic file (type pdf)
+<use ./figures/wave_trace.pdf>
+Package pdftex.def Info: ./figures/wave_trace.pdf used on input line 156.
+(pdftex.def)             Requested size: 429.3521pt x 350.32864pt.
+[12] [13 <./figures/wave_trace.pdf>] [14] (./nijpaper.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 17.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [15]
+Underfull \hbox (badness 2698) in paragraph at lines 21--29
+[]\OT1/ptm/m/n/12 Behrens, E., K. V[]age, B. Harden, A. Bi-as-toch, and C. W. B
+[]oning.  2017.
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 21--29
+\OT1/ptm/m/n/12 Com-po-si-tion and vari-abil-ity of the den-mark strait over-fl
+ow wa-ter in a high-
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 21--29
+\OT1/ptm/m/n/12 resolution nu-mer-i-cal model hind-cast sim-u-la-tion.  Jour-na
+l of Geo-phys-i-cal Re-
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 21--29
+\OT1/ptm/m/n/12 search: Oceans, \OT1/ptm/m/it/12 122\OT1/ptm/m/n/12 (4), 2830--
+2846.  doi: 10.1002/2016JC012158.  URL
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 31--39
+[]\OT1/ptm/m/n/12 Dickson, R. R. and J. Brown.  1994.  The pro-duc-tion of Nort
+h At-
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 31--39
+\OT1/ptm/m/n/12 lantic Deep Wa-ter: Sources, rates, and path-ways.  J. Geo-phys
+. Res., \OT1/ptm/m/it/12 99
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 31--39
+\OT1/ptm/m/n/12 (C6), 12319--12341.  ISSN 0148-0227.  doi: 10.1029/94JC00530.  
+URL
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 41--50
+\OT1/ptm/m/n/12 ti-fi-ca-tion and role in shelf cir-cu-la-tion.  Jour-nal of Ph
+ys-i-cal Oceanog-ra-phy, \OT1/ptm/m/it/12 9
+ []
+
+
+Overfull \hbox (38.99759pt too wide) in paragraph at lines 41--50
+\OT1/pcr/m/n/12 https://doi.org/10.1175/1520-0485(1979)009<0244:TRWOEA>2.0.CO;2
+\OT1/ptm/m/n/12 . 
+ []
+
+
+Overfull \hbox (60.59758pt too wide) in paragraph at lines 54--65
+\OT1/pcr/m/n/12 http://www.sciencedirect.com/science/article/pii/S0967063715301
+266\OT1/ptm/m/n/12 . 
+ []
+
+[16]
+Underfull \hbox (badness 7944) in paragraph at lines 87--95
+[]\OT1/ptm/m/n/12 Jochumsen, K., M. Moritz, N. Nunes, D. Quad-fasel, K. M. H. L
+arsen,
+ []
+
+
+Underfull \hbox (badness 5862) in paragraph at lines 87--95
+\OT1/ptm/m/n/12 B. Hansen, H. Valdimars-son, and S. Jon-s-son.  2017.  Re-vised
+ trans-
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 87--95
+\OT1/ptm/m/n/12 port es-ti-mates of the den-mark strait over-flow.  Jour-nal of
+ Geo-phys-i-cal Re-
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 87--95
+\OT1/ptm/m/n/12 search: Oceans, \OT1/ptm/m/it/12 122\OT1/ptm/m/n/12 (4), 3434--
+3450.  doi: 10.1002/2017JC012803.  URL
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 118--127
+[]\OT1/ptm/m/n/12 Louis, J. P., B. D. Petrie, and P. C. Smith.  2017/08/08 1982
+.  Ob-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--127
+\OT1/ptm/m/n/12 ser-va-tions of to-po-graphic rossby waves on the con-ti-nen-ta
+l mar-gin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--127
+\OT1/ptm/m/n/12 off nova sco-tia.  Jour-nal of Phys-i-cal Oceanog-ra-phy, \OT1/
+ptm/m/it/12 12\OT1/ptm/m/n/12 (1), 47--55.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--127
+\OT1/ptm/m/n/12 doi: 10.1175/1520-0485(1982)012<0047:OOTRWO>2.0.CO;2.  URL
+ []
+
+
+Overfull \hbox (38.99759pt too wide) in paragraph at lines 118--127
+\OT1/pcr/m/n/12 https://doi.org/10.1175/1520-0485(1982)012<0047:OOTRWO>2.0.CO;2
+\OT1/ptm/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 130--138
+\OT1/ptm/m/n/12 ton.  2017.  On the hy-drog-ra-phy of den-mark strait.  Jour-na
+l of Geo-phys-i-
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 140--150
+[]\OT1/ptm/m/n/12 Mauritzen, C.  1996.  Pro-duc-tion of dense over-flow wa-ters
+ feed-ing the North
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 140--150
+\OT1/ptm/m/n/12 At-lantic across the Greenland-Scotland Ridge. Part 1: Ev-i-den
+ce for a re-
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 140--150
+\OT1/ptm/m/n/12 vised cir-cu-la-tion scheme.  Deep Sea Re-search Part I: Oceano
+-graphic Re-
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 140--150
+\OT1/ptm/m/n/12 search Pa-pers, \OT1/ptm/m/it/12 43\OT1/ptm/m/n/12 (6), 769--80
+6.  doi: 10.1016/0967-0637(96)00037-4.  URL
+ []
+
+
+Overfull \hbox (53.39758pt too wide) in paragraph at lines 140--150
+\OT1/pcr/m/n/12 http://www.sciencedirect.com/science/article/pii/09670637960003
+74\OT1/ptm/m/n/12 . 
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 166--174
+[]\OT1/ptm/m/n/12 Pickart, R. S.  1995.  Gulf stream--generated to-po-graphic r
+ossby
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--174
+\OT1/ptm/m/n/12 waves.  Jour-nal of Phys-i-cal Oceanog-ra-phy, \OT1/ptm/m/it/12
+ 25\OT1/ptm/m/n/12 (4), 574--586.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--174
+\OT1/ptm/m/n/12 doi: 10.1175/1520-0485(1995)025<0574:GSTRW>2.0.CO;2.  URL
+ []
+
+
+Overfull \hbox (31.79759pt too wide) in paragraph at lines 166--174
+\OT1/pcr/m/n/12 https://doi.org/10.1175/1520-0485(1995)025<0574:GSTRW>2.0.CO;2\
+OT1/ptm/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 176--183
+[]\OT1/ptm/m/n/12 Pickart, R. S. and D. R. Watts.  1990.  Deep west-ern bound-a
+ry cur-rent vari-
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 176--183
+\OT1/ptm/m/n/12 abil-ity at cape hat-teras.  Jour-nal of Ma-rine Re-search, \OT
+1/ptm/m/it/12 48\OT1/ptm/m/n/12 (4), 765--791.  URL
+ []
+
+
+Overfull \hbox (139.79755pt too wide) in paragraph at lines 176--183
+\OT1/pcr/m/n/12 http://www.ingentaconnect.com/content/jmr/jmr/1990/00000048/000
+00004/art00005\OT1/ptm/m/n/12 . 
+ []
+
+[18]
+Underfull \hbox (badness 2626) in paragraph at lines 219--228
+\OT1/ptm/m/n/12 Tor-res, S. Y. Ero-feeva, and J. E. ^^_. Nilsen.  2013.  Re-vis
+ed cir-cu-la-tion
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 219--228
+\OT1/ptm/m/n/12 scheme north of the Den-mark Strait.  Deep Sea Re-search Part I
+: Oceano-
+ []
+
+
+Overfull \hbox (60.59758pt too wide) in paragraph at lines 219--228
+\OT1/pcr/m/n/12 http://www.sciencedirect.com/science/article/pii/S0967063713001
+040\OT1/ptm/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 231--239
+[]\OT1/ptm/m/n/12 V[]age, K., G. W. K. Moore, S. J[]onsson, and H. Valdimars-so
+n.  2015.  Wa-ter
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 231--239
+\OT1/ptm/m/n/12 mass trans-for-ma-tion in the Ice-land Sea.  Deep Sea Re-search
+ Part I: Oceano-
+ []
+
+
+Overfull \hbox (60.59758pt too wide) in paragraph at lines 231--239
+\OT1/pcr/m/n/12 http://www.sciencedirect.com/science/article/pii/S0967063715000
+680\OT1/ptm/m/n/12 . 
+ []
+
+) [19] (./nijpaper.aux) ) 
+Here is how much of TeX's memory you used:
+ 2882 strings out of 493315
+ 41429 string characters out of 6137904
+ 109645 words of memory out of 5000000
+ 6280 multiletter control sequences out of 15000+600000
+ 27117 words of font info for 54 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,7n,26p,1452b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/ba
+se/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on nijpaper.pdf (21 pages, 871982 bytes).
+PDF statistics:
+ 163 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
