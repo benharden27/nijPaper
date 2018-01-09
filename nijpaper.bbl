@@ -1,9 +1,21 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Almansi {\it et~al.}(2017)Almansi, Haine, Pickart, Magaldi,
+  Gelderloos, and Mastropole]{Almansi2017}
+Almansi, M., T.~W.~N. Haine, R.~S. Pickart, M.~G. Magaldi, R.~Gelderloos, and
+  D.~Mastropole.
+\newblock 2018/01/05 2017.
+\newblock High-frequency variability in the circulation and hydrography of the
+  denmark strait overflow from a high-resolution numerical model.
+\newblock Journal of Physical Oceanography, \emph{47}\penalty0 (12), \penalty0
+  2999--3013.
+\newblock \doi{10.1175/JPO-D-17-0129.1}.
+\newblock URL \url{https://doi.org/10.1175/JPO-D-17-0129.1}.
 
 \bibitem[Appen {\it et~al.}(2017)Appen, Mastropole, Pickart, Valdimarsson,
   J{\'o}nsson, and Girton]{Appen2017}
@@ -27,15 +39,23 @@ Behrens, E., K.~V{\aa}ge, B.~Harden, A.~Biastoch, and C.~W. B{\"o}ning.
 \newblock \doi{10.1002/2016JC012158}.
 \newblock URL \url{http://dx.doi.org/10.1002/2016JC012158}.
 
-\bibitem[Dickson and Brown(1994)]{Dickson1994}
-Dickson, R.~R. and J.~Brown.
-\newblock 1994.
-\newblock {The production of North Atlantic Deep Water: Sources, rates, and
-  pathways}.
-\newblock J. Geophys. Res., \emph{99}\penalty0 (C6), \penalty0 12319--12341.
-\newblock ISSN 0148-0227.
-\newblock \doi{10.1029/94JC00530}.
-\newblock URL \url{http://dx.doi.org/10.1029/94JC00530}.
+\bibitem[Bruce(1995)]{Bruce1995}
+Bruce, J.
+\newblock 1995.
+\newblock Eddies southwest of the {Denmark Strait}.
+\newblock Deep Sea Research Part I: Oceanographic Research Papers,
+  \emph{42}\penalty0 (1), \penalty0 13--29.
+\newblock \doi{10.1016/0967-0637(94)00040-Y}.
+\newblock URL
+  \url{http://www.ingentaconnect.com/content/els/09670637/1995/00000042/00000001/art00040}.
+
+\bibitem[Cooper(1955)]{Cooper1955}
+Cooper, L. H.~N.
+\newblock 1955.
+\newblock Deep water movements in the north atlantic as a link between climatic
+  changes around iceland and biological productivity of the english channel and
+  celtic sea.
+\newblock Journal of Marine Research, pages 347--362.
 
 \bibitem[Garrett(1979)]{Garrett1979}
 Garrett, C.
@@ -62,6 +82,23 @@ Harden, B.~E., R.~S. Pickart, H.~Valdimarsson, K.~V{\aa}ge, L.~de~Steur,
 \newblock \doi{https://doi.org/10.1016/j.dsr.2016.02.007}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0967063715301266}.
+
+\bibitem[H{\aa}vik {\it et~al.}(2017)H{\aa}vik, V{\aa}ge, Pickart, Harden, von
+  Appen, J{\'o}nsson, and {\O}sterhus]{Havik2017}
+H{\aa}vik, L., K.~V{\aa}ge, R.~S. Pickart, B.~Harden, W.~J. von Appen,
+  S.~J{\'o}nsson, and S.~{\O}sterhus.
+\newblock 2017/08/30 2017.
+\newblock Structure and variability of the shelfbreak east greenland current
+  north of denmark strait.
+\newblock Journal of Physical Oceanography.
+\newblock \doi{10.1175/JPO-D-17-0062.1}.
+\newblock URL \url{https://doi.org/10.1175/JPO-D-17-0062.1}.
+
+\bibitem[Hogg(1981)]{Hogg1981}
+Hogg, N.~G.
+\newblock 1981.
+\newblock Topographic waves along 70$\,^{\circ}$w on the continental rise.
+\newblock Journal of Marine Research, \emph{39}, \penalty0 627--649.
 
 \bibitem[Jakobsson {\it et~al.}(2012)Jakobsson, Mayer, Coakley, Dowdeswell,
   Forbes, Fridman, Hodnesdal, Noormets, Pedersen, Rebesco, Schenke, Zarayskaya,
@@ -93,6 +130,17 @@ Jochumsen, K., M.~Moritz, N.~Nunes, D.~Quadfasel, K.~M.~H. Larsen, B.~Hansen,
 \newblock \doi{10.1002/2017JC012803}.
 \newblock URL \url{http://dx.doi.org/10.1002/2017JC012803}.
 
+\bibitem[Johns and Watts(1986)]{Johns1986}
+Johns, W.~E. and D.~R. Watts.
+\newblock 1986.
+\newblock Time scales and structure of topographic rossby waves and meanders in
+  the deep gulf stream.
+\newblock Journal of Marine Research, \emph{44}\penalty0 (2), \penalty0
+  267--290.
+\newblock \doi{10.1357/002224086788405356}.
+\newblock URL
+  \url{http://www.ingentaconnect.com/content/jmr/jmr/1986/00000044/00000002/art00002}.
+
 \bibitem[Jonsson and Valdimarsson(2004)]{Steingrimur2004}
 Jonsson, S. and H.~Valdimarsson.
 \newblock February 2004.
@@ -108,6 +156,16 @@ J{\'o}nsson, S. and H.~Valdimarsson.
 \newblock {Hydrography and circulation over the southern part of the Kolbeinsey
   Ridge}.
 \newblock ICES Journal of Marine Science: Journal du Conseil.
+
+\bibitem[K{\"a}se {\it et~al.}(2003)K{\"a}se, Girton, and Sanford]{Kase2003}
+K{\"a}se, R.~H., J.~B. Girton, and T.~B. Sanford.
+\newblock 2003.
+\newblock Structure and variability of the {Denmark Strait Overflow}: Model and
+  observations.
+\newblock Journal of Geophysical Research: Oceans, \emph{108}\penalty0 (C6),
+  \penalty0 3181.
+\newblock \doi{10.1029/2002JC001548}.
+\newblock URL \url{http://dx.doi.org/10.1029/2002JC001548}.
 
 \bibitem[Lilly(2017)]{Lilly2017}
 Lilly, J.~M.
@@ -155,6 +213,16 @@ Meinen, C., E.~Fields, R.~S. Pickart, and D.~R. Watts.
 \newblock Ray tracing on topographic rossby waves.
 \newblock Technical Report 93-1, University of Rhode Island.
 
+\bibitem[Nikolopoulos {\it et~al.}(2003)Nikolopoulos, Boren{\"a}s, Hietala, and
+  Lundberg]{Nikolopoulos2003}
+Nikolopoulos, A., K.~Boren{\"a}s, R.~Hietala, and P.~Lundberg.
+\newblock 2003.
+\newblock Hydraulic estimates of {Denmark Strait} overflow.
+\newblock Journal of Geophysical Research: Oceans, \emph{108}\penalty0 (C3),
+  \penalty0 3095.
+\newblock \doi{10.1029/2001JC001283}.
+\newblock URL \url{http://dx.doi.org/10.1029/2001JC001283}.
+
 \bibitem[Pedlosky(1979)]{Pedlosky1979}
 Pedlosky, J.
 \newblock 1979.
@@ -181,6 +249,18 @@ Pickart, R.~S. and D.~R. Watts.
 \newblock URL
   \url{http://www.ingentaconnect.com/content/jmr/jmr/1990/00000048/00000004/art00005}.
 
+\bibitem[Pickart {\it et~al.}(2017-09-01T00:00:00)Pickart, Spall, Torres,
+  V{\aa}ge, Valdimarsson, Nobre, Moore, Jonsson, and Mastropole]{Pickart2017}
+Pickart, R.~S., M.~A. Spall, D.~J. Torres, K.~V{\aa}ge, H.~Valdimarsson,
+  C.~Nobre, G.~W.~K. Moore, S.~Jonsson, and D.~Mastropole.
+\newblock 2017-09-01T00:00:00.
+\newblock The north icelandic jet and its relationship to the north icelandic
+  irminger current.
+\newblock Journal of Marine Research, \emph{75}\penalty0 (5), \penalty0
+  605--639.
+\newblock URL
+  \url{http://www.ingentaconnect.com/content/jmr/jmr/2017/00000075/00000005/art00003}.
+
 \bibitem[Rudels {\it et~al.}(2002)Rudels, Fahrbach, Meincke, Bud{\'e}us, and
   Eriksson]{Rudels2002}
 Rudels, B., E.~Fahrbach, J.~Meincke, G.~Bud{\'e}us, and P.~Eriksson.
@@ -190,6 +270,23 @@ Rudels, B., E.~Fahrbach, J.~Meincke, G.~Bud{\'e}us, and P.~Eriksson.
 \newblock ICES Journal of Marine Science: Journal du Conseil, \emph{59},
   \penalty0 1133--1154.
 \newblock \doi{10.1006/jmsc.2002.1284}.
+
+\bibitem[Schultz(1987)]{Schultz1987}
+Schultz, R.~J., 1987.
+\newblock Structure and propagation of topographic rossby waves northeast of
+  cape hatteras, north carolina.
+\newblock Master's thesis, Marine Science Program, University of North
+  Carolina.
+
+\bibitem[Smith(1976)]{Smith1976}
+Smith, P.~C.
+\newblock May 1976.
+\newblock {Baroclinic Instability in the Denmark Strait Overflow}.
+\newblock J. Phys. Oceanogr., \emph{6}\penalty0 (3), \penalty0 355--371.
+\newblock ISSN 0022-3670.
+\newblock \doi{10.1175/1520-0485(1976)006<0355:BIITDS>2.0.CO;2}.
+\newblock URL
+  \url{http://dx.doi.org/10.1175/1520-0485(1976)006<0355:BIITDS>2.0.CO;2}.
 
 \bibitem[Strass {\it et~al.}(1993)Strass, Fahrbach, Schauer, and
   Sellmann]{Strass1993}
@@ -236,5 +333,13 @@ V{\aa}ge, K., G.~W.~K. Moore, S.~J{\'o}nsson, and H.~Valdimarsson.
 \newblock \doi{10.1016/j.dsr.2015.04.001}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0967063715000680}.
+
+\bibitem[Whitehead(1998)]{Whitehead1998}
+Whitehead, J.~A.
+\newblock 1998.
+\newblock Topographic control of oceanic flows in deep passages and straits.
+\newblock Reviews of Geophysics, \emph{36}\penalty0 (3), \penalty0 423--440.
+\newblock \doi{10.1029/98RG01014}.
+\newblock URL \url{http://dx.doi.org/10.1029/98RG01014}.
 
 \end{thebibliography}

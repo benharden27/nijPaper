@@ -1,7 +1,9 @@
 clear
+
+% Set up save folder
 savefold = '~/Documents/projects/kogur/NIJpaper/paper/figures/';
 
-fontsz = 14;
+% Load in data and process
 fold = 'mat_36lp_20m';
 dir = '~/data/KGA/ADCP/';
 dir = [dir fold '/'];
@@ -30,17 +32,18 @@ end
 
 distm = sw_dist(poslat,poslon,'km');
 
-%%
+%% Make the plot
 
-
-
+% Load in bathymetry data
 load ~/data/bathymetry/bathy_ibcao_ds
 
+% find domain boundaries
 lon1 = findnear(lon,-32);
 lon2 = findnear(lon,-15);
 lat1 = findnear(lat,65);
 lat2 = findnear(lat,79);
 
+% format the domain to be the right scale
 lambda = mean(lat([lat1 lat2]));
 dx = sw_dist([lambda lambda],lon([lon1 lon2]));
 dy = sw_dist(lat([lat1 lat2]),lon([lon1 lon1]));
@@ -49,16 +52,21 @@ ratio = dx/dy;
 xscale = sw_dist([lambda lambda],[1 2]);
 yscale = sw_dist([1 2],lon([lon1 lon1]));
 
-st = 5;
+% % ????
+% st = 5;
+
+% load the right colormap
 load invgray
 
-
+% start the plotting
 figure, hold on
 colormap(invgray)
 
+% plot the bathymetry and coastline
 contourf(lon(lon1:lon2),lat(lat1:lat2),-bath(lat1:lat2,lon1:lon2),[0:250:2000],'linestyle','none')
 contour(lon(lon1:lon2),lat(lat1:lat2),-bath(lat1:lat2,lon1:lon2),[0 0],'k')
 
+% Make the coloraxes and format domain aspect ratio
 caxis([0 3000])
 h = cbarf([0 nanmax(nanmax(-bath(lat1:lat2,lon1:lon2)))],[0:250:2000]);
 ylabel(h,'Depth (m)')
@@ -68,42 +76,44 @@ set(h,'position',[pos_cb(1)-.05 pos_main(2) pos_cb(3) pos_main(4)])
 set(gca,'plotboxaspectratio',[ratio 1 1],'box','on')
 hold on
 
-
-% load '/Users/benjamin/data/ERAinterim/N128/coastline'
-% plot(coastline(:,1),coastline(:,2),'k','linewidth',1)
-
-
-% plot currents
-dotFL = 0;
-lwd = 8;
+% set up current parameters
+dotFL = 1; % show the locations of the nodes
+lwd = 8; % current linewidths
+% set up current colors
 NIJcol = [2,56,88]/255;
 EGCcol = [44 162 95]/255;
 NIICcol = [239,101,72]/255;
 
-xpred = [-18.5:-0.1:-25.5];
-xbrk = -21 ;
+% Plot NIJ
+% create the base vector for the NIJ
+xpred = [-17:-0.1:-26]; % break point where we dont plot beyond
+xbrk = -20;
 xi = findnear(xpred,xbrk);
 
-NIJx = [-18.2081 -18.9923 -20.6318 -22.2179 -23.2872 -23.6970 -24.2317 -24.7307 -25.2118];
-NIJy = [68.2705 67.8465 67.7764 67.7296 67.5360 67.4025 67.1555 66.9218 66.7282];
+% location of NIJ node points
+NIJx = [-17 -18.2081 -18.9923 -20.6318 -22.2179 -23.2872 -23.6970 -24.2317 -24.7307 -25.2118];
+NIJy = [68.5 68.2705 67.8465 67.7764 67.7296 67.5360 67.4025 67.1555 66.9218 66.7282];
 NIJs = spline(NIJx,NIJy);
 ypred = ppval(NIJs,xpred);
 % ypred(1:5:xi) = nan;
 % ypred(2:5:xi) = nan;
 
-plot(xpred(1:xi),ypred(1:xi),'color',NIJcol,'linestyle','--','linewidth',lwd)
+% plot the NIJ
+plot(xpred(1:xi),ypred(1:xi),'color',NIJcol,'linestyle',':','linewidth',lwd)
 plot(xpred(xi:end),ypred(xi:end),'color',NIJcol,'linewidth',lwd)
 % plot(xpred,ypred,NIJcol,'linewidth',lwd)
 if(dotFL)
     plot(NIJx,NIJy,'k.','markersize',10);
 end
+
+% Add an arrow to the end
 sc = 20;
 tht = 45;
 fill(xpred(end-1) - [sc/2*cosd(90-tht) sc*cosd(tht) -sc/2*cosd(90-tht)]/xscale,...
     ypred(end-1) - [-sc/2*sind(90-tht) sc*sind(tht) sc/2*sind(90-tht)]/yscale,...
     NIJcol,'linestyle','none')
 
-
+% Plot EGC (as above)
 ypred = 66.8:0.05:71.5;
 EGCx = [-19.3102 -18.7005 -18.9819 -20.2482 -21.7489 -24.2876 -25.2193 -25.7821 -26.1104];
 EGCy = [71.1008 70.2575 69.5548 69.1683 68.9575 68.5007 68.0615 67.3939 66.8668];
@@ -118,9 +128,7 @@ fill(xpred(2) - [sc/2*cosd(90-tht) sc*cosd(tht) -sc/2*cosd(90-tht)]/xscale,...
     ypred(2) - [-sc/2*sind(90-tht) sc*sind(tht) sc/2*sind(90-tht)]/yscale,...
     EGCcol,'linestyle','none')
 
-
-
-
+% Plot the separated EGC
 ypred = 66.95:0.05:71.5;
 ybrk = 68.25;
 yi = findnear(ypred,ybrk);
@@ -130,16 +138,16 @@ EGC2y = [71.1008 70.2575 69.5548 68.8521 68.3777 67.9034 67.5520 67.2182 66.8317
 EGC2s = spline(EGC2y,EGC2x);
 xpred = ppval(EGC2s,ypred);
 plot(xpred(1:yi),ypred(1:yi),'color',EGCcol,'linewidth',lwd)
-plot(xpred(yi:end),ypred(yi:end),'color',EGCcol,'linestyle','--','linewidth',lwd)
+plot(xpred(yi:end),ypred(yi:end),'color',EGCcol,'linestyle',':','linewidth',lwd)
 if(dotFL)
-plot(EGC2x,EGC2y,'k.','markersize',10);
+    plot(EGC2x,EGC2y,'k.','markersize',10);
 end
 tht = 60;
 fill(xpred(2) - [sc/2*cosd(90-tht) sc*cosd(tht) -sc/2*cosd(90-tht)]/xscale,...
     ypred(2) - [-sc/2*sind(90-tht) sc*sind(tht) sc/2*sind(90-tht)]/yscale,...
     EGCcol,'linestyle','none')
 
-
+% Plot the NIIC
 xpred = [-28:0.05:-20];
 NIICx = [-27.2989 -26.4468 -24.6487 -23.3789 -21.7777 -19.8729];
 NIICy = [64.7838 65.6215 66.5626 67.1210 67.4882 67.5105];
@@ -157,6 +165,7 @@ fill(xpred(end-1) - [sc/2*cosd(90-tht) sc*cosd(tht) -sc/2*cosd(90-tht)]/xscale,.
     ypred(end-1) - [-sc/2*sind(90-tht) sc*sind(tht) sc/2*sind(90-tht)]/yscale,...
     NIICcol,'linestyle','none')
 
+% Add in text for the currents
 fs = 14;
 text(-20.5,70.3,'EGC','color',EGCcol,'fontsize',fs,'fontweight','bold')
 text(-25,69,'sbEGC','color',EGCcol,'fontsize',fs,'fontweight','bold')
@@ -166,12 +175,22 @@ text(-21.5,67.2,'NIIC','color',NIICcol,'fontsize',fs,'fontweight','bold')
 text(-28,66.3,{'Denmark','Strait','Sill'},'color','k','fontsize',fs-2,'HorizontalAlignment','center')
 text(-28,69.3,'Greenland','color','k','fontsize',fs-2,'HorizontalAlignment','center')
 text(-19,65.3,'Iceland','color','k','fontsize',fs-2,'HorizontalAlignment','center')
+text(-22.5,70.3,'Scoresby Sund','color','k','fontsize',fs-2,'HorizontalAlignment','center')
 
-plot(poslon,poslat,'k.','markersize',10)
-plot(poslon(1:7),poslat(1:7),'k.','markersize',20)
+% plot the mooring positions
+plot(poslon,poslat,'k.','markersize',10) % all moorings
+plot(poslon(1:7),poslat(1:7),'k.','markersize',20) % subset used in paper
+plot(-18-50/60,68,'k+','markersize',10,'linewidth',3) % upstream mooring
 
-plot(-18-50/60,68,'k+','markersize',10,'linewidth',3)
+% confirm axes
+axis([-31 -17 65 71])
+set(gca,'box','on')
 
-
-
+% Print the figure
 print_fig('mainmap',savefold,1,.6)
+% set(gcf,'PaperPositionMode','Auto','paperunits','normalized','paperposition',[0 0 1 .6])
+% print(gcf,[savefold 'mainmap2'],'-dpdf','-r0')
+
+
+% set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+% print(gcf,[savefold 'mainmap2'],'-dpdf','-r0')
