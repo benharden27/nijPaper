@@ -296,7 +296,7 @@ parms(3) = D;
 save ~/Documents/projects/kogur/NIJpaper/code/TRWwaveparms poslat poslon kvec parms
 
 %% plot the positions
-
+% load the bathymetry and scale
 load ~/data/bathymetry/bathy_ibcao_ds
 dlon = diff(lon([1 2]));
 dlat = diff(lat([1 2]));
@@ -321,7 +321,7 @@ yscale = sw_dist([1 2],lon([lon1 lon1]));
 st = 5;
 load invgray
 
-
+% start figure
 figure
 colormap(invgray)
 
@@ -335,10 +335,10 @@ ylabel(h,'Depth (m)')
 pos_cb = get(h,'position');
 set(h,'position',[pos_cb(1) pos_main(2) pos_cb(3) pos_main(4)])
 
+% plot mooring locations
 hold on
 plot(poslon,poslat,'k.','markersize',20)
-% plot(poslon([3 3]),lats([lat1 lat2]),'k')
-% plot(lons([lon1 lon2]),poslat([3 3]),'k')
+
 for i = 1:nfile
     quiver(poslon(i),poslat(i),nanmean(unew(i,:),2)'*100/xscale,nanmean(vnew(i,:),2)'*100/yscale,'k','linewidth',1)
 end
@@ -346,14 +346,26 @@ end
 for di = 1:nfile
     [~,x,y] = varelip(uh(:,di),vh(:,di),0);
     plot(poslon(di)+100*x/xscale,poslat(di)+100*y/yscale,'k')
-    % principle axis angle (angle is counter-clockwise from east)
 end
 
-ran = -20:20;
+quiver(-22.8,67.6,10/xscale,0,'k')
+text(-22.8,67.63,'10 cm/s')
+
+ran = -21:21;
 plot(poslon(3)+ran/xscale,poslat(3)+ran/sind(angB)/yscale,'k')
-ran = .8;
+
+ran = 1;
+% phase velocity
 quiver(poslon(3),poslat(3),ran*cpkd*sind(mean(ang(2:4)))/xscale,ran*cpkd*cosd(mean(ang(2:4)))/yscale,'k','linewidth',2,'MaxHeadSize',10)
+text(-23.68,67.6,'C_p','fontweight','bold')
 quiver(poslon(3),poslat(3),ran*Cgkd*sind(Cgang)/xscale,ran*Cgkd*cosd(Cgang)/yscale,'k','linewidth',2,'linestyle','--')
+text(-22.65,66.96,'C_g','fontweight','bold')
+
+ox = [-.15 .09 .07 .07 -.33 -.33 -.33];
+oy = [-.03 .01 .01 .01 .01 .01 .01];
+for i = 1:length(poslon)
+    text(poslon(i)+ox(i),poslat(i)+oy(i),['KGA-' num2str(i)])
+end
 
 % xlims = get(gca,'xlim');
 % figposx = (poslon(3)-xlims(1))/diff(xlims);
@@ -366,7 +378,7 @@ quiver(poslon(3),poslat(3),ran*Cgkd*sind(Cgang)/xscale,ran*Cgkd*cosd(Cgang)/ysca
 % plot(poslon(3)+ran/xscale,poslat(3)+ran/sind(mean(ang(2:4)))/yscale,'k')
 
 
-
+axis([-25.6 -22.1 66.9 67.95]) 
 
 
 
