@@ -74,6 +74,9 @@ for i = 1:length(xvec)
 end
 
 
+% wsmean(wsmean(:)>.2) = 1;
+% wsmean(wsmean(:)<-.2) = -1;
+
 %% plot correlations
 
 
@@ -166,7 +169,6 @@ for i = 1:3
             case 1
                 subplot(1,10,1:3), hold on
                 varplot = wsmean'*100;
-                
                 levs = -20:2:20;
             case 2
                 subplot(1,10,4:6), hold on
@@ -181,8 +183,7 @@ for i = 1:3
         end
         varplot(varplot<-20) = -20;
                 varplot(varplot>20) = 20;
-    [~,h1] = contourf(xvec,tvec,varplot',levs,'linestyle','none');
-    cmapmaker(h1);
+    [C,h1] = contourf(xvec,tvec,varplot',levs,'linestyle','none');
     set(gca,'ytick',datenum(2011,9:21,1))
     datetick('y','mmmyy','keepticks')
     axis([xvec([1 end]) tvec([1 end])])
@@ -191,6 +192,7 @@ for i = 1:3
     if(i>1)
         set(gca,'yticklabel',[])
     end
+    set(gca,'xdir','reverse')
 %     pos = get(gca,'position');
 %     set(gca,'position',[pos(1) pos(2)+0.1 pos(3) pos(4)-0.1])
     switch i
@@ -198,7 +200,7 @@ for i = 1:3
             title('(a)')
             pos = get(gca,'position');
             h2 = cbarf(varplot,levs);
-            cmapmaker(h1,h2)
+%             cmapmaker(C,h1,h2)
             set(h2,'position',[0.87 pos(2) 0.03 pos(4)])
             ylabel(h2,'cm s^-^1')
             set(gca,'position',pos)
@@ -214,7 +216,8 @@ for i = 1:3
             end
             
     end
-    
+    pause(0.01)
+    cmapmaker(C,h1,h2);
     
 %     hlines(xloc)
 end

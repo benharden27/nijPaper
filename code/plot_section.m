@@ -57,7 +57,7 @@ hold on
 vran = -14:2:14;
 
 % fill contour the velocity field
-[~,h1] = contourf(xvec,dvec,wsvec*100,vran,'linestyle','none');
+[C1,h1] = contourf(xvec,dvec,wsvec*100,vran,'linestyle','none');
 h2 = cbarf(vran,vran); % add colorbar
 contour(xvec,dvec,wsvec,[0 0],'color',[.5 .5 .5]) % add zero line
 set(gca,'ydir','reverse','xdir','reverse')
@@ -107,7 +107,7 @@ set(gca, 'Layer', 'top')
 
 % change colormaps for velocity
 pause(.01) % For some reason, matlab needs a break at this point
-[~,cm2] = cmapmaker(h1,h2);
+[~,cm2] = cmapmaker(C1,h1,h2);
 
 
 

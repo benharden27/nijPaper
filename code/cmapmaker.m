@@ -1,24 +1,23 @@
-function [h,cm2] = cmapmaker(varargin)
+function [h,cm2] = cmapmaker(C,h,hc)
 
-h = varargin{1};
-if nargin>1
-    switch(nargin)
-        case 2
-            if(ishandle(varargin{2}))
-                hc = varargin{2};
-            else
-                cmch = varargin{2};
-            end
-        case 3
-            if(ishandle(varargin{2}))
-                hc = varargin{2};
-                cmch = varargin{3};
-            else
-                hc = varargin{3};
-                cmch = varargin{2};
-            end
-    end
-end
+% if nargin>0
+%     switch(nargin)
+%         case 1
+%             if(ishandle(varargin{1}))
+%                 hc = varargin{1};
+%             else
+%                 cmch = varargin{1};
+%             end
+%         case 2
+%             if(ishandle(varargin{1}))
+%                 hc = varargin{1};
+%                 cmch = varargin{2};
+%             else
+%                 hc = varargin{2};
+%                 cmch = varargin{1};
+%             end
+%     end
+% end
 
 if(~exist('cmch','var'))
     cmch = 'midw';
@@ -131,7 +130,13 @@ for n = 1:3
 end    
 cm2 = uint8([cm';ones(1,size(cm,1))]*255);
 
-for n = 1:size(a,2)
+levi = sum(bsxfun(@eq,C(1,:)',levs)) > 0;
+if(levi(2)==1)
+    levi(1) = 1;
+end
+levs2 = levs(levi);
+cm2 = cm2(:,levi);
+for n = 1:length(levs2)
 %    val = find(levs==get(a(n),'Cdata'),1);
 %    if(isempty(val))
 %        val = find(levs>get(a(n),'Cdata'),1)-1;
