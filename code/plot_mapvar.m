@@ -293,7 +293,7 @@ clear parms
 parms(1) = f;
 parms(2) = N;
 parms(3) = D;
-save ~/Documents/projects/kogur/NIJpaper/code/TRWwaveparms poslat poslon kvec parms
+save ~/Documents/projects/kogur/NIJpaper/paper/code/TRWwaveparms poslat poslon kvec parms
 
 %% plot the positions
 % load the bathymetry and scale
