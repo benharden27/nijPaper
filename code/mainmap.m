@@ -175,7 +175,8 @@ text(-21.5,67.2,'NIIC','color',NIICcol,'fontsize',fs,'fontweight','bold')
 text(-28,66.3,{'Denmark','Strait','Sill'},'color','k','fontsize',fs-2,'HorizontalAlignment','center')
 text(-28,69.3,'Greenland','color','k','fontsize',fs-2,'HorizontalAlignment','center')
 text(-19,65.3,'Iceland','color','k','fontsize',fs-2,'HorizontalAlignment','center')
-text(-22.5,70.3,'Scoresby Sund','color','k','fontsize',fs-2,'HorizontalAlignment','center')
+text(-22.5,70.3,'Scoresby Sund','color','k','fontsize',fs-4,'HorizontalAlignment','center')
+text(-24.1,68.05,'Blosseville Basin','color','k','fontsize',fs-4,'rotation',35)
 
 % plot the mooring positions
 plot(poslon,poslat,'k.','markersize',10) % all moorings
