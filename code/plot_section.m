@@ -83,7 +83,7 @@ fill([regdist(~isnan(regdist))' regdist(end) regdist(1)],[regbat(~isnan(regdist)
 plot(posxa(:,tp),posda(:,tp),'.','color',[.7 .7 .7],'markersize',10)
 
 % add figure labels
-text(10,650,'Along Stream','horizontalalignment','center','backgroundcolor','w')
+text(10,650,'Along Stream Velocity','horizontalalignment','center','backgroundcolor','w')
 text(150,1000,'(a)','fontsize',14)
 
 % move colorbar and axes for good spacing
