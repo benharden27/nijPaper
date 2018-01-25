@@ -77,7 +77,7 @@ set(gca,'plotboxaspectratio',[ratio 1 1],'box','on')
 hold on
 
 % set up current parameters
-dotFL = 1; % show the locations of the nodes
+dotFL = 0; % show the locations of the nodes
 lwd = 8; % current linewidths
 % set up current colors
 NIJcol = [2,56,88]/255;
